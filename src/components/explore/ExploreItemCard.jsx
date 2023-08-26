@@ -1,6 +1,6 @@
 import { Spin } from "antd";
 import { Link } from "react-router-dom";
-import a from "../../assets/8.gif";
+// import a from "../../assets/8.gif";
 import { useGetMovieDetailsQuery } from "../../redux/services/movieDatabase";
 const ExploreItemCard = ({ movieId }) => {
   const { data, isFetching, error } = useGetMovieDetailsQuery({

@@ -4,10 +4,10 @@ import ComingSoon from "../components/explore/ComingSoon";
 import TopMovie from "../components/explore/TopMovie";
 import TopSeries from "../components/explore/TopSeries";
 import TrendMovies from "../components/explore/TrendMovies";
-import { useRlt } from "../contextProvider/ContextProvider";
+// import { useRlt } from "../contextProvider/ContextProvider";
 
 const Explore = () => {
-  const rtl=useRlt()
+  // const rtl=useRlt()
 
   return (
     <div className="lg:flex  w-full " >
@@ -17,7 +17,7 @@ const Explore = () => {
         <TopMovie /> 
         <TopSeries />
       </div>
-      <div className={`mt-5  relative top-0 ${rtl ? 'x:ml-10 2xl:ml-0' :'x:mr-10 2xl:mr-0'}  ` } >
+      {/* <div className={`mt-5  relative top-0 ${rtl ? 'x:ml-10 2xl:ml-0' :'x:mr-10 2xl:mr-0'}  ` } >
         <div className="text-[20px] font-semibold flex mt-3 mx-3 ">
           <p className="self-center">Upcoming Movies</p>
           <span>
@@ -25,7 +25,7 @@ const Explore = () => {
           </span>
         </div>
         <ComingSoon />
-      </div>
+      </div> */}
     </div>
     </div>
   );
